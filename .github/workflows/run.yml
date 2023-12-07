@@ -9,7 +9,7 @@ on:
     branches: 
       - master
     paths:
-      - Sources
+      - '**.swift'
   issues:
     types: [opened, edited]
   issue_comment:
